@@ -1,10 +1,7 @@
 # Web Scraper: Java, Spring Framework & Jsoup
 - A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. Implemented concurrency to speed up the process. Used Swagger for documentation of API.
 
-- Currently it scrapes data about movies from this URL: https://en.wikipedia.org/wiki/Lists_of_American_films
-  It targets all the URLs inside the main URL mentioned above to fetch data of movies by year. 
-
-
+- Currently it scrapes data about movies from Wikipedia. It targets all the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; fetches data of movies by year. 
 
 
 ## Features
