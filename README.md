@@ -1,7 +1,9 @@
 # Web Scraper: Java, Spring Framework & Jsoup
-A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. 
-Currently it scrapes all the data about movies from thi
-Implemented concurrency to speed up the process. Used Swagger for documentation of API.
+- A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. Implemented concurrency to speed up the process. Used Swagger for documentation of API.
+
+- Currently it scrapes data about movies from this URL: https://en.wikipedia.org/wiki/Lists_of_American_films
+  It targets all the URLs inside the main URL mentioned above to fetch data of movies by year. 
+
 
 
 
@@ -27,10 +29,9 @@ Implemented concurrency to speed up the process. Used Swagger for documentation 
 ### Back-End
 
 * REST API
-* Java
-  *  
-* Spring Framework: 
-* Jsoup:
+* Java 8: used lambdas and streams to search, parse and collect data.
+* Spring Framework
+* Jsoup (Java Library) for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors.
 
 ## Run Program
 
