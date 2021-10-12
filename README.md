@@ -42,6 +42,32 @@ Implemented concurrency to speed up the process. Used Swagger for documentation 
   
   > Swagger Documentation
   
-  ![Demo1](Demo1.JPG)
+  ![Swagger Documentation](web-scraper-swagger-pic1.JPG)
 
 ## Demo Pictures
+
+> Demo 1
+  
+![Demo1](web-scraper-swagger-pic2.JPG)
+
+> Demo 2
+  
+![Demo2](web-scraper-swagger-pic3.JPG)
+
+> Demo 3
+  
+![Demo3](web-scraper-swagger-pic4.JPG)
+
+> Demo 4
+  
+![Demo4](DBwithAllColumnsSeeded.JPG)
+
+> Demo 5
+  
+![Demo5](DBwithAllColumnsSeeded2.JPG)
+
+> Demo 6
+  
+![Demo6](DBwithAllColumnsSeeded4.JPG)
+
+
