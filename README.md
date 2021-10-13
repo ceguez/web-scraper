@@ -31,7 +31,8 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
 ### Back-End
 
 * REST API
-* Java 8: used lambdas and streams to search, parse and collect data.
+* Java 8 
+  * Stream API: used class Collectors for fast/simpler manipulation of the data (map-reduce paradigm).
   * Concurrency: 
 * Spring Framework
 * Jsoup (Java Library) for fetching URLs and extracting and manipulating data.
@@ -41,12 +42,19 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
 
 ## Testing & Documentation of API
 
+**Completed**
+
 * This is a collection of the requests tested on the API: https://documenter.getpostman.com/view/16169448/UV5Rmfa7
+
 * Documentation of API in Swagger: 
   
   > Swagger Documentation
   
   ![Swagger Documentation](web-scraper-swagger-pic1.JPG)
+  
+**In Progress**
+
+* Implement Monte Carlo testing for concurrency.
 
 ## Demo Pictures
 
