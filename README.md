@@ -16,20 +16,14 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
   * Director
   * Genre
 
-* It returns data as a 'Set<Strings>' in JSON.
+* It returns data as a 'Set of Strings' in JSON.
 
 **In Progress**
 
-* Back-End
-
-  * Change the type of the returned data (to 'Set<Movie>') in JSON.
-  * Integrate a PostgreSQL database.
-  * In addition, fetch for each movie: cast, year, country and notes. 
-  * Publish public API.
-  
-* Front-End 
-
-  * Define requirements.
+* Integrate a PostgreSQL database.
+* In addition, fetch for each movie: cast, year, country and notes. 
+* Publish public API.
+* Define requirements for a **front-end**.
   * Research and evaluate best technology options to develop a dashboard.
 
 ## Tech stack
@@ -38,6 +32,7 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
 
 * REST API
 * Java 8: used lambdas and streams to search, parse and collect data.
+  * Concurrency: 
 * Spring Framework
 * Jsoup (Java Library) for fetching URLs and extracting and manipulating data.
 
