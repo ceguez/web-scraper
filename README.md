@@ -1,19 +1,32 @@
 # Web Scraper: Java, Spring Framework & Jsoup
-- A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. Implemented concurrency to speed up the process. Used Swagger for documentation of API.
 
-- Currently it scrapes data about movies from Wikipedia. It targets all the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; fetches data of movies by year. 
+A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. Implemented concurrency to speed up the process. Used Swagger for documentation of API.
 
+**Note:** It is not a violation of Wikipedia's site to scrape their data as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
 
 ## Features
 
 **Completed**
 
+Currently, it scrapes data about movies from Wikipedia. It targets the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; it fetches data of movies by year. 
+
+* It fetches the following data for each movie:
+
+  * Title
+  * Director
+  * Genre
+
+* It returns data as a Set<Strings> in JSON.
 
 **In Progress**
 
 * Back-End
 
+  * Change the type of the returned data (to Set<Movie>) in JSON.
+  * Expand/Adapt scraping feature and target more films from this URL: https://en.wikipedia.org/wiki/Category:Lists_of_film_lists
   * Integrate PostgreSQL.
+  * In addition, fetch for each movie: Cast, Year and Country. 
+  * Integrate a 
   * Publish public API.
   
 * Front-End 
