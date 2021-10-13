@@ -4,7 +4,7 @@ A RESTful API which fetches data from multiple web addresses (URLs) by parsing s
 
 ## Features
 
-**Note:** It is not a violation of Wikipedia's site to scrape their data as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
+**Note:** It is not illegal to scrape data from Wikipedia as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
 
 **Completed**
 
@@ -33,12 +33,15 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
 * REST API
 * Java 8 
   * Stream API: used class Collectors for fast/simpler manipulation of the data (map-reduce paradigm).
-  * Concurrency: 
+  * Concurrency: used CompletableFuture class which implements Future & CompletionStage interfaces.
 * Spring Framework
-* Jsoup (Java Library) for fetching URLs and extracting and manipulating data.
+* Jsoup (Java Library) for fetching URLs, extracting, and manipulating data.
 
 ## Run Program
 
+* Run from within the PJ folder in CL: **mvn spring-boot:run**
+
+**Note**: You must have installed Java 8 & JDK plus Maven.
 
 ## Testing & Documentation of API
 
