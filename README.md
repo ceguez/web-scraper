@@ -2,13 +2,13 @@
 
 A RESTful API which fetches data from multiple web addresses (URLs) by parsing specific elements from their HTML structure. Implemented concurrency to speed up the process. Used Swagger for documentation of API.
 
-**Note:** It is not a violation of Wikipedia's site to scrape their data as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
-
 ## Features
+
+**Note:** It is not a violation of Wikipedia's site to scrape their data as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
 
 **Completed**
 
-Currently, it scrapes data about movies from Wikipedia. It targets the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; it fetches data of movies by year. 
+It scrapes data about movies from Wikipedia. Currently, it targets the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; it fetches data of movies by year. 
 
 * It fetches the following data for each movie:
 
@@ -16,17 +16,15 @@ Currently, it scrapes data about movies from Wikipedia. It targets the URLs with
   * Director
   * Genre
 
-* It returns data as a Set<Strings> in JSON.
+* It returns data as a 'Set<Strings>' in JSON.
 
 **In Progress**
 
 * Back-End
 
-  * Change the type of the returned data (to Set<Movie>) in JSON.
-  * Expand/Adapt scraping feature and target more films from this URL: https://en.wikipedia.org/wiki/Category:Lists_of_film_lists
-  * Integrate PostgreSQL.
-  * In addition, fetch for each movie: Cast, Year and Country. 
-  * Integrate a 
+  * Change the type of the returned data (to 'Set<Movie>') in JSON.
+  * Integrate a PostgreSQL database.
+  * In addition, fetch for each movie: cast, year, country and notes. 
   * Publish public API.
   
 * Front-End 
@@ -41,7 +39,7 @@ Currently, it scrapes data about movies from Wikipedia. It targets the URLs with
 * REST API
 * Java 8: used lambdas and streams to search, parse and collect data.
 * Spring Framework
-* Jsoup (Java Library) for fetching URLs and extracting and manipulating data, using the best of HTML5 DOM methods and CSS selectors.
+* Jsoup (Java Library) for fetching URLs and extracting and manipulating data.
 
 ## Run Program
 
