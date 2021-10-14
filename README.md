@@ -6,11 +6,11 @@ A RESTful API which fetches data from multiple web addresses (URLs) by parsing s
 
 **Completed**
 
-It scrapes data about movies from Wikipedia. Currently, it targets the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films; it fetches data of movies by year.
+It scrapes data about movies from Wikipedia. Currently, it targets the URLs within this URL: https://en.wikipedia.org/wiki/Lists_of_American_films
 
 **Note:** This tool follows the proper etiquette and it does not violate the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) of Wikipedia. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free and legal usage of the site's data.
 
-* It fetches the following data for each movie:
+* It fetches the following data for each movie by year:
 
   * Title
   * Director
