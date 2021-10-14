@@ -4,7 +4,7 @@ A RESTful API which fetches data from multiple web addresses (URLs) by parsing s
 
 ## Features
 
-**Note:** It is not illegal to scrape data from Wikipedia as long as the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) are not violated. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free & legal usage of the data.
+**Note:** This tool follows the proper etiquete and it does not violate the [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en#12._Termination) of Wikipedia. [Wikipedia's Licence](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) allows for free and legal usage of the data.
 
 **Completed**
 
