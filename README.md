@@ -33,7 +33,8 @@ It scrapes data about movies from Wikipedia. Currently, it targets the URLs with
 * REST API
 * Java 8 
   * Stream API: used class Collectors for fast/simpler manipulation of the data (map-reduce paradigm).
-    * Functional programs are easier to parallilize so that they can take advanatge of multi-core architectures to enhance performance.
+    * Functional programs are easier to parallilize. 
+    * MapReduce allows to do a lot of processing in parallel, which makes processing large amounts of data more scalable.
   * Concurrency: used CompletableFuture class which implements Future & CompletionStage interfaces.
 * Spring Framework
 * Jsoup (Java Library) for fetching URLs, extracting, and manipulating data.
